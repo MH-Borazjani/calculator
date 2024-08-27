@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Exo", sans-serif;
+    }
+  }
+  
+@layer components {
+    .circle{
+        @apply rounded-full w-20 h-20 bg-[#323232]  flex justify-center items-center font-bold text-3xl
+    }   
+}

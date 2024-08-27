@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container flex flex-col items-center bg-gray-400 h-screen">
+      <!-- header -->
+      <header class="mx-auto my-10 font-bold text-5xl">calculator</header>
+      <main class="">
+        <!-- /calculator -->
+        <div
+          class="grid grid-cols-4 gap-3 [&>button]:circle bg-black p-10 rounded-2xl"
+        >
+          <div class="col-span-4 h-16 text-white text-3xl font-medium"></div>
+          <button id="ac" class="!bg-[#A7A6A7]">AC</button>
+          <button id="del" class="!bg-[#A7A6A7]">DEL</button>
+          <button id="percentage" class="!bg-[#A7A6A7]">%</button>
+          <button id="division" class="!bg-[#FF9600]">/</button>
+          <button id="one">1</button>
+          <button id="two">2</button>
+          <button id="three">3</button>
+          <button id="plus" class="!bg-[#FF9600] !font-mono">*</button>
+          <button id="four">4</button>
+          <button id="five">5</button>
+          <button id="six">6</button>
+          <button id="minus" class="!bg-[#FF9600]">-</button>
+          <button id="seven">7</button>
+          <button id="eight">8</button>
+          <button id="nine">9</button>
+          <button id="addition" class="!bg-[#FF9600]">+</button>
+          <button id="zero" class="col-span-2 !min-w-[172px]">0</button>
+          <button id="decimal">.</button>
+          <button id="equal" class="!bg-[#FF9600]">=</button>
+        </div>
+      </main>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
